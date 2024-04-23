@@ -1,13 +1,20 @@
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
-import { Inter as FontSans } from "next/font/google";
+import { Crimson_Text } from "next/font/google";
 
 import "./globals.css";
 
-const fontSans = FontSans({
+const crimson_text = Crimson_Text({
   subsets: ["latin"],
-  variable: "--font-sans",
+  display: "swap",
+  weight: "600",
+  variable: "--font-crimson_text",
 });
+
+// const fontSans = FontSans({
+//   subsets: ["latin"],
+//   variable: "--font-sans",
+// });
 
 export const metadata: Metadata = {
   title: "Dr. Sarah Alice Taylor Morrow",
@@ -24,7 +31,7 @@ export default function RootLayout({
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable
+          crimson_text.variable
         )}
       >
         {children}

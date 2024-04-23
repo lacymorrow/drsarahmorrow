@@ -98,7 +98,7 @@ export default function Hero() {
                   </div>
                   <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed dark:text-gray-400">
                     A Celebration of Life for Dr. Morrow will be held on
-                    Saturday, April 27th at 3:00 PM at the O'Henry Hotel in
+                    Saturday, April 27th at 3:00 PM at the O&apos;Henry Hotel in
                     Greensboro.
                   </p>
                   {watchInfo}

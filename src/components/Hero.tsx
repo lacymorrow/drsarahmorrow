@@ -3,28 +3,19 @@
  * @see https://v0.dev/t/LMBALz7bRcr
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
+import { TooltipProvider } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 
 const watchLink = (
-  <Tooltip delayDuration={0}>
-    <TooltipTrigger>
-      <Link className={cn(buttonVariants({ variant: "outline" }))} href="#">
-        Watch the Service
-      </Link>
-    </TooltipTrigger>
-    <TooltipContent>
-      <p>The link is not yet active.</p>
-    </TooltipContent>
-  </Tooltip>
+  <Link
+    className={cn(buttonVariants())}
+    href="https://youtube.com/live/hOhg7-C0m6o?feature=share"
+  >
+    Watch the Service Live
+  </Link>
 );
 
 const watchInfo = (

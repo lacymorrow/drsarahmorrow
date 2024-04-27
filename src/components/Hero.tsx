@@ -12,7 +12,7 @@ import { buttonVariants } from "./ui/button";
 const watchLink = (
   <Link
     className={cn(buttonVariants())}
-    href="https://youtube.com/live/hOhg7-C0m6o?feature=share"
+    href="https://youtube.com/live/HXiV7g1Ab2s?feature=share"
   >
     Watch the Service Live
   </Link>

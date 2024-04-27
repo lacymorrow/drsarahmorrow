@@ -5,7 +5,7 @@ const nextConfig = {
       // Basic redirect
       {
         source: '/',
-        destination: 'https://youtube.com/live/hOhg7-C0m6o?feature=share',
+        destination: 'https://youtube.com/live/HXiV7g1Ab2s?feature=share',
         permanent: false,
       }
 	]

@@ -3,11 +3,11 @@ const nextConfig = {
   redirects: async () => {
     return [
       // Basic redirect
-      {
-        source: '/',
-        destination: 'https://youtube.com/live/HXiV7g1Ab2s?feature=share',
-        permanent: false,
-      }
+      // {
+      //   source: '/',
+      //   destination: 'https://youtube.com/live/HXiV7g1Ab2s?feature=share',
+      //   permanent: false,
+      // }
 	]
   },
 }

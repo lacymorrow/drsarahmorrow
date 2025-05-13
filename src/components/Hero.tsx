@@ -10,18 +10,14 @@ import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 
 const watchLink = (
-  <Link
-    className={cn(buttonVariants())}
-    href="https://youtube.com/live/HXiV7g1Ab2s?feature=share"
-  >
-    Watch the Service Live
+  <Link className={cn(buttonVariants({ size: "lg" }))} href="/watch">
+    Watch the Service
   </Link>
 );
 
 const watchInfo = (
   <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-    The service will be broadcast on Zoom and YouTube for those who cannot be
-    with us in person.
+    The Celebration of Life service is available on Youtube.
   </p>
 );
 
@@ -89,7 +85,7 @@ export default function Hero() {
                   </div>
                   <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed dark:text-gray-400">
                     A Celebration of Life for Dr. Morrow will be held on
-                    Saturday, April 27th at 3:00 PM Eastern at the O&apos;Henry
+                    Saturday, April 27th 2024 at 3:00 PM Eastern at the O&apos;Henry
                     Hotel in Greensboro.
                   </p>
                   {watchInfo}

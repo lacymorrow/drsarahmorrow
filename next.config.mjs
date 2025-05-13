@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       // Basic redirect
       {
-        source: '/',
+        source: '/watch',
         destination: 'https://youtube.com/live/HXiV7g1Ab2s?feature=share',
         permanent: false,
       }

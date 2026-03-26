@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Crimson_Text } from "next/font/google";
+import Script from "next/script";
 
 import "./globals.css";
 
@@ -35,6 +36,7 @@ export default function RootLayout({
         )}
       >
         {children}
+        <Script defer src="https://analytics.lacy.sh/script.js" data-website-id="9cd6bdd2-7fab-4a29-80c0-355ee514e28f" />
       </body>
     </html>
   );
